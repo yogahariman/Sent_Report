@@ -5,9 +5,9 @@ Source : https://medium.com/@robertbracco1/how-to-write-a-telegram-bot-to-send-m
   https://telegram.me/BotFather
   Send the message “/newbot”
 2. Install telegram-send and link it to your bot:
-  pip install telegram-send
+  pip install telegram-send  
+3. Configure
   telegram-send --configure
-3. Send a test message from your python code
+5. Send a test message from your python code
   import telegram_send
   telegram_send.send(messages=["Hello!"])
-4. 
